@@ -252,10 +252,10 @@ export const guest = (() => {
         const url = new URL('https://calendar.google.com/calendar/render');
         const data = new URLSearchParams({
             action: 'TEMPLATE',
-            text: 'The Wedding of Yuda and Ely',
-            dates: `${formatDate('2025-08-15 09:00')}/${formatDate('2025-08-15 12:00')}`,
+            text: 'The Wedding of Yuda and Elly',
+            dates: `${formatDate('2025-08-23 09:00')}/${formatDate('2025-08-23 12:00')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
-            location: 'RT 01 RW 01, Desa Seketeng, Kec. Sumbawa, Kab. Sumbawa, NTB.',
+            location: 'Gor Garuda Muda PPN Bukit Indah Kelurahan Seketeng, Kec. Sumbawa, Kab. Sumbawa, NTB.',
             ctz: 'Asia/Makassar',
         });
 
